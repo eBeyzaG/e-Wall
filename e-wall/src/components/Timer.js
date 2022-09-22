@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import '../App.css';
 
 const Timer = () => {
 
@@ -30,7 +31,7 @@ const Timer = () => {
     })
 
   return (
-    <div className='container'>
+    <div className='container timer'>
         <h1>{hours >  9 ? hours : "0" + hours}:{minutes > 9 ? minutes : "0"+ minutes}:{seconds > 9 ? seconds : "0" + seconds}</h1>
     </div>
   )

@@ -1,0 +1,21 @@
+body {
+    background-color:#BF9774 ;
+    padding: 40px;
+    font-family: Arial;
+  }
+h1 {
+    color: #B3723C;
+    font-weight: 900;
+    font-size: 13vw;
+}
+.timer {
+    width: 95%;
+    background-color: #362417;
+    border-radius: 1cm;
+    text-align: center;
+}
+.note { 
+    color: beige;
+    background-color: #894e30 ;
+}
+/*#365365  #8B8C64, #BF9774, #B3723C, #894E30, #3F2E24 */
