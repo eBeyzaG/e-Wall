@@ -3,10 +3,19 @@ body {
     padding: 40px;
     font-family: Arial;
   }
+
 h1 {
     color: #B3723C;
     font-weight: 900;
     font-size: 13vw;
+}
+
+button {
+    background-color: #BF9774;
+    color: white;
+    border-radius: 1cm;
+    margin: auto;
+    border-color: #BF9774;
 }
 .timer {
     width: 95%;
@@ -14,8 +23,28 @@ h1 {
     border-radius: 1cm;
     text-align: center;
 }
+.timer-input {
+    width: 20%;
+    border-radius: 1cm;
+    background-color: #ddcfc3;
+    text-align: center;
+}
 .note { 
     color: beige;
-    background-color: #894e30 ;
+    background-color: #894e30;
+}
+.setTimer {
+    color: white;
+    width: 30%;
+    background-color: #3F2E24;
+    border-radius: 1cm;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+
+}
+.todoElement {
+    background-color: #894e30;
+    border-radius: 1cm;
 }
 /*#365365  #8B8C64, #BF9774, #B3723C, #894E30, #3F2E24 */

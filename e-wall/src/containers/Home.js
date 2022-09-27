@@ -1,14 +1,10 @@
 import React from 'react'
-import Timer from '../components/Timer'
-import Note from '../components/TodoList'
-import "../App.css"
+import { Navigate } from 'react-router-dom'
+
 
 const Home = () => {
   return (
-    <div className='container'>
-        <Timer/>
-        <Note />
-    </div>
+    <Navigate to='/setTimer' />
   )
 }
 

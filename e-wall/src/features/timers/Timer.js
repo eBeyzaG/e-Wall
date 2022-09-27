@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from 'react'
-import '../App.css';
+import { selectTimer } from './timersSlice';
+import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 const Timer = () => {
 
-    const [hours, setHours] = useState(1)
-    const [minutes, setMinutes] = useState(1)
-    const [seconds, setSeconds] = useState(0)
+    const navigate = useNavigate()
+
+    const timer = useSelector(selectTimer)
+
+    const [hours, setHours] = useState(timer.hours)
+    const [minutes, setMinutes] = useState(timer.minutes)
+    const [seconds, setSeconds] = useState(timer.seconds)
     
     useEffect(() => {
         let myInterval = setInterval(() => {
@@ -16,6 +22,7 @@ const Timer = () => {
                 if(minutes === 0){
                     if(hours === 0){
                         clearInterval(myInterval)
+                        navigate('/result')
                     }else{
                         setHours(hours - 1)
                         setMinutes(59)
