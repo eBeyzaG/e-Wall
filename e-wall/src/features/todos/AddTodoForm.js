@@ -35,7 +35,7 @@ const AddTodoForm = () => {
 
     const renderedTodos = todos.map(todo => (
         <div className='todoElement' key={todo.id} >
-        <article style={{marginBottom: '2%'}} >
+        <article >
             <h5>{todo.title}</h5>
             <p>{todo.content}</p>
         </article>
