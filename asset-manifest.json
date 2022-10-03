@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/e-wall/static/css/main.c1c01c26.css",
+    "main.js": "/e-wall/static/js/main.9692bac6.js",
+    "index.html": "/e-wall/index.html",
+    "main.c1c01c26.css.map": "/e-wall/static/css/main.c1c01c26.css.map",
+    "main.9692bac6.js.map": "/e-wall/static/js/main.9692bac6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1c01c26.css",
+    "static/js/main.9692bac6.js"
+  ]
+}
