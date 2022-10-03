@@ -5,7 +5,7 @@ import "../App.css"
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div>
         <Timer/>
         <TodoList />
     </div>

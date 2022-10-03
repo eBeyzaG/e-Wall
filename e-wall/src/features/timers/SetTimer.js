@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import {Navigate} from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 import { timerSet } from './timersSlice'
 
 const SetTimer = () => {
@@ -43,7 +43,7 @@ const SetTimer = () => {
                         onChange={e => onChange(e)}
                         value={hours}
                         name='hours'
-                    /><span class="input-group-addon"> </span>
+                    /><span className="input-group-addon"> </span>
                       <input
                         className='form-control timer-input'
                         type='number'
@@ -51,7 +51,7 @@ const SetTimer = () => {
                         onChange={e => onChange(e)}
                         value={minutes}
                         name='minutes'
-                    /><span class="input-group-addon"> </span> <input
+                    /><span className="input-group-addon"> </span> <input
                     className='form-control timer-input'
                     type='number'
                     placeholder='Second(s)'
@@ -60,7 +60,6 @@ const SetTimer = () => {
                     name='seconds'
                 />
                 </div>
-                
                 <br></br>
                 <div>
                 <button type='submit'>Set Timer</button>

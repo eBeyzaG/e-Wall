@@ -14,8 +14,8 @@ button {
     background-color: #BF9774;
     color: white;
     border-radius: 1cm;
-    margin: auto;
     border-color: #BF9774;
+    margin: 2%;
 }
 .timer {
     width: 95%;
@@ -32,6 +32,7 @@ button {
 .note { 
     color: beige;
     background-color: #894e30;
+    text-align: center;
 }
 .setTimer {
     color: white;
@@ -43,6 +44,17 @@ button {
     text-align: center;
 
 }
+.results {
+    color: #271c16;
+    width: 30%;
+    background-color: #a26140;
+    border-radius: 1cm;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    font-weight: 900;
+}
+
 .todoElement {
     background-color: #894e30;
     border-radius: 1cm;
